@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Figtree;
+    font-style: normal;
+    font-weight: 500 800;
+    font-display: swap;
+    src: url("../assets/fonts/static/Figtree-ExtraBold.ttf") format("woff2");
+}
+
+@theme {
+
+    --color-Yellow: #F4D04E;
+    --color-Gray-950: #111111;
+    --color-Gray-500: #6b6b6b;
+
+    --spacing-300: 1.5rem;
+    --spacing-150: 0.75rem;
+    --spacing-100: 0.5rem;
+    --spacing-50: 0.25rem;
+
+    --font-Figtree: 'Figtree';
+
+    --shadow-Bold: 8px 8px 0px #000000;
+
+    /* Text Preset1 */
+    --text-Preset1: 1.5rem;
+    --text-Preset1--line-height: 150%;
+    --text-Preset1--letter-spacing: 0;
+    --text-Preset1--font-weight: 700;
+
+    /* Text Preset2 */
+    --text-Preset2: 1rem;
+    --text-Preset2--line-height: 150%;
+    --text-Preset2--letter-spacing: 0;
+    --text-Preset2--font-weight: 500;
+
+    /* Text Preset3 */
+    --text-Preset3: 0.875rem;
+    --text-Preset3--line-height: 150%;
+    --text-Preset3--letter-spacing: 0;
+    --text-Preset3--font-weight: 500;
+
+    /* Text Preset3(bold) */
+    --text-Preset3Bold: 0.875rem;
+    --text-Preset3Bold--line-height: 150%;
+    --text-Preset3Bold--letter-spacing: 0;
+    --text-Preset3Bold--font-weight: 700;
+
+
+}
